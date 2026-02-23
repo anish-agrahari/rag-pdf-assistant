@@ -1,0 +1,7 @@
+streamlit
+faiss-cpu
+numpy
+google-generativeai
+sentence-transformers
+pypdf
+torch

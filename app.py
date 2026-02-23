@@ -6,9 +6,8 @@ from sentence_transformers import SentenceTransformer
 from pypdf import PdfReader
 
 # ---------------- CONFIG ----------------
-genai.configure(api_key="AIzaSyDCLkMwGsECcHHXfagdE7matDryoey5zRQ")
-model = genai.GenerativeModel("gemini-2.5-flash")
-
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel("gemini-2.5-flash")
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # ---------------- PAGE SETTINGS ----------------
